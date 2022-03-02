@@ -1,4 +1,5 @@
 package br.com.erudio.section05._0507
 
-class Palindrome {
+fun isPalindrome(str: String): Boolean {
+    return str == str.reversed()
 }
