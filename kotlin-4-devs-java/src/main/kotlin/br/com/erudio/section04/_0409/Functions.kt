@@ -1,23 +1,24 @@
-package br.com.erudio.section04._0408
+package br.com.erudio.section04._0409
 
 fun main() {
+    println("10 + 20 = ${myMathFunction(10, 20)}")
+    println("15 + 25 = ${myExpressionBodyFunction(15, 25)}")
+    println("10 + 10 = ${myExpressionBodyFunctionWithInference(10, 10)}")
+    println("10 + 10 = ${myFunctionWithDefaults(10, 10)}")
+    println("10 + 10 = ${myFunctionWithDefaults(10, 10, "Hello")}")
+    println("Defaul SUM = ${myFunctionWithDefaults(message = "Hello")}")
+}
 
-    println()
-    var index = 0
-    for (item in 10.rangeTo(20).step(2)) {
-        println("${++index} ) $item, ")
-    }
-    println()
+fun myMathFunction(number1: Int, number2: Int) : Int {
+    return number1 + number2
+}
 
-    println()
-    for ((indx, item) in 10.rangeTo(20).step(2).withIndex()) {
-        println("${indx + 1} ) $item, ")
-    }
-    println()
+fun myExpressionBodyFunction(number1: Int, number2: Int) : Int = number1 + number2
 
-    val myArray = arrayOf(10, 20, 30, 40, 50)
-    for (item in myArray.indices) {
-        println("At index $item is ${myArray[item]}")
-    }
-    println()
+fun myExpressionBodyFunctionWithInference(number1: Int, number2: Int) = number1 + number2
+
+fun myFunctionWithDefaults(number1: Int = 1, number2: Int = 5, message: String = "Hi") : Int {
+    val result = number1 + number2
+    println(message)
+    return result
 }
