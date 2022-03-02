@@ -4,7 +4,7 @@ import br.com.erudio.section04._0412.fizzBuzz
 import org.amshove.kluent.shouldBeEqualTo
 import org.junit.jupiter.api.Test
 
-/**
+/*
 private fun fizzBuzz(n: Int): List<String> {
     TODO("not implemented")
 }
