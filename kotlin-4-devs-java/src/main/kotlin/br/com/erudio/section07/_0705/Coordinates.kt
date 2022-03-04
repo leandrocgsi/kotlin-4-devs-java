@@ -1,4 +1,4 @@
-package br.com.erudio.section07._0702
+package br.com.erudio.section07._0705
 
 data class Coordinates(var x: Int, var y: Int) {
 
