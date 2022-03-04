@@ -9,13 +9,14 @@ import org.junit.jupiter.api.TestInstance
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 class TestOperatorOverload {
 
+    /*
     operator fun plus(other: Coordinates) : Coordinates {
         TODO("not implemented")
     }
 
     operator fun minus (other: Coordinates) : Coordinates {
         TODO("not implemented")
-    }
+    }*/
 
     lateinit var p1: Coordinates
     lateinit var p2: Coordinates
