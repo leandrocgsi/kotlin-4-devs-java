@@ -1,5 +1,6 @@
-package br.com.erudio.section06._0603
+package br.com.erudio.section07._0703
 
+@Deprecated("Use the Animal class instead", ReplaceWith("Animal"))
 class Person internal constructor (var firstName: String, var lastName: String) {
 
     init {
