@@ -5,9 +5,11 @@ import br.com.erudio.section08._0812.findTheShortestStudentName
 import org.amshove.kluent.shouldBeEqualTo
 import org.junit.jupiter.api.Test
 
+/*
 fun findTheShortestStudentName(students: List<Student>): Student? {
     TODO("not implemented")
 }
+*/
 
 class Test {
 
