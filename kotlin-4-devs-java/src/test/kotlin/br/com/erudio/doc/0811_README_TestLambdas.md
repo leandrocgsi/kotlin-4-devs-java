@@ -2,7 +2,7 @@
 
 ## Instructions
 
-Given an array of students, implement a function which returns the user that is the shortest name.
+Given an array of students, implement a function which returns the student that is the shortest name.
 
 ## Examples
 
