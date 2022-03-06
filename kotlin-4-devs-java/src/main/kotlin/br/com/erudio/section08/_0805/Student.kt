@@ -1,4 +1,4 @@
-package br.com.erudio.section08._0803
+package br.com.erudio.section08._0805
 
 data class Student(val name: String, var age: Int)
 
