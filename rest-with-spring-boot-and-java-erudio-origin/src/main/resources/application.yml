@@ -1,0 +1,17 @@
+spring:
+    datasource:
+        driverClassName: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/rest_with_spring_boot_java_erudio_origin?useTimezone=true&serverTimezone=UTC
+        username: root
+        password: admin123
+    flyway:
+        url: jdbc:mysql://localhost:3306/rest_with_spring_boot_java_erudio_origin?useTimezone=true&serverTimezone=UTC
+        user: root
+        password: admin123
+    jpa:
+        hibernate:
+            ddl-auto: update
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.MySQL8Dialect
+        show-sql: false
